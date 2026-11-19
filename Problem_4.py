@@ -1,0 +1,11 @@
+a=int(input("Enter a: "))
+b=int(input("Enter b: "))
+c=int(input("Enter c: "))
+d=int(input("Enter d: "))
+
+print("Expression 2:",a + b * c ** d)
+print("Expression 1:",(a + b) * c // d)
+print("Expression 3:",a // b + a % b * c ** d)
+print("Expression 4:",(a > b) and (c < d) or (a != b))
+print("Expression 5:",(a & b) | (c ^ d))
+print("Expression 6:",(a << 2) + (b >> 1))
